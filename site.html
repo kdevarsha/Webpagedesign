@@ -108,41 +108,68 @@
 </td>
 </tr>
 <tr>
-<td style="vertical-align: middle; text-align: center;" colspan="1" rowspan="1"><strong>Parameter 1</strong></td>
+
 <td colspan="2" rowspan="1">
 <table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
 <thead>
+    <tr><td style="vertical-align: middle; text-align: center;" colspan="6" rowspan="1"><strong>Parameters</strong></td></tr>
 <tr>
-<td># of Racks</td>
+        
+<td>Thresholds</td>
+<!--
 <td align="left"><strong>:</strong></td>
 <td align="right"><strong>5</strong></td>
+-->
+</tr>
+<style>
+    .boxed{
+        width: 50px;
+	    height: 25px;
+	    border:	1px  black;
+        
+    }
+</style>
+<tr>
+<td>Under-triage</td>
+<td><strong>:</strong></td>
+<td  align="center">
+<div class="boxed">
+<strong><input type="text" size="4"></strong>
+</div>
+</td>
 </tr>
 <tr>
-<td>Rack Height</td>
+<td>Over-triage</td>
 <td><strong>:</strong></td>
-<td align="right"><strong>7 ft</strong></td>
+<td align="center">
+<div class="boxed">    
+<strong><input type="text" size="4"></strong>
+</div>
+</td>
 </tr>
 <tr>
-<td>Rack Peremeter</td>
-<td><strong>:</strong></td>
-<td align="right"><strong>110 ft</strong></td>
+
 </tr>
 </thead>
 </table>
 </td>
-<td colspan="1" rowspan="2">
+<!--
+    <td colspan="1" rowspan="2">
 <table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
 <thead id="fp">
-<tr>
+
+    <tr>
 <td style="height: 120px; text-align: center; vertical-align: middle;"><strong>Parameter 2</strong></td>
 </tr>
+
 <tr>
-<td style="height: 60px; text-align: center; vertical-align: bottom;"><button id="results_click" class="btn btn-default" style="background-color: #ddd; color: #9e5845; box-shadow: 4px 4px 4px #888888;"><strong>Click here</strong></button></td>
 </tr>
 </thead>
 </table>
-</td>
+</td>-->
+<!--
 <td colspan="2">
+
 <table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
 <thead id="fp">
 <tr>
@@ -161,24 +188,31 @@
 <td align="right"><strong>45�</strong></td>
 </tr>
 </thead>
-</table>
+</table> -->
 </td>
 </tr>
-<tr>
-<td style="vertical-align: middle; text-align: center;" colspan="1" rowspan="1"><strong>Configuration</strong></td>
+<tr style="border-collapse: collapse;">
+
 <td colspan="2">
-<table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
+<table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;" >
 <tbody>
-<tr>
-<td style="vertical-align: middle; text-align: left; border-top: none;">(? , a)</td>
+<tr class="odd">
+<!--<td style="vertical-align: middle; text-align: left; border-top: none;">(? , a)</td>-->
+<td style="vertical-align: middle; text-align: center;border-top: none;" colspan="1" rowspan="1" border="0"><strong>Type</strong></td>
 <td style="vertical-align: top; border-top: none;" rowspan="1"><select id="alpha" class="form-control"><option value="30,0">(30� , 0�)</option><option value="45,0">(45� , 0�)</option><option value="45,30">(45� , 30�)</option><option value="45,90">(45� , 90�)</option><option value="90,30">(90� , 30�)</option><option value="90,90">(90� , 90�)</option><option value="135,0">(135� , 0�)</option></select></td>
+
+<td style="height: 60px; text-align: center; vertical-align: bottom;border-top: none;"><button id="results_click" class="btn btn-default" style="background-color: #ddd; color: #9e5845; box-shadow: 4px 4px 4px #888888;"><strong>Click here</strong></button></td>
+
 </tr>
 </tbody>
 </table>
 </td>
+<!--    
 <td style="border: 1px solid #dddddd !important;">
-<table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
+
+    <table class="table borderless" style="border-collapse: collapse; padding: 0 !important; margin: 0 !important; border-top: none;">
 <tbody>
+
 <tr>
 <td style="vertical-align: middle; text-align: left; border-top: none;">Travel</td>
 <td style="vertical-align: middle; text-align: middle; border-top: none;"><strong> :</strong></td>
@@ -186,6 +220,7 @@
 </tr>
 </tbody>
 </table>
+-->
 </td>
 </tr>
 </tbody>
